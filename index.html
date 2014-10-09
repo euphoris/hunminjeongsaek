@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>훈민정색</title>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="color.js"></script>
+        <style>
+            .box {
+                width: 3em;
+                height: 3em;
+                display: inline-block;
+            }
+        </style>
     </head>
     <body>
-        <input value="안녕하세요">
-        <button>바꾸기</button>
-        <div></div>
+        <h2>훈민정색 - 백성을 가르치는 바른 색깔</h2>
+        <div>
+            <p>
+                2014년 10월 9일,
+                568돌 한글날을 맞아 재미로 만든 한글 표기법입니다.
+            </p>
+            <p>
+                한글의 초성, 중성, 종성을 각각 빨강, 초록, 파랑의 진하기로
+                표현하여 한글 한 글자를 색깔로 나타냅니다.
+            </p>
+            <p>
+                아래 빈 칸에 아무 말이나 넣고 '바꾸기'를 누르세요
+            </p>
+            <p>
+                <a href="http://github.com/euphoris/hunminjeongsaek">github 저장소</a>
+            </p>
+        </div>
+        <form action=".">
+            <input value="안녕하세요">
+            <button>바꾸기</button>
+        </form>
+        <div class="result"></div>
     </body>
 </html>
